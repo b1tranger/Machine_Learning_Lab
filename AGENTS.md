@@ -85,4 +85,4 @@ When archiving conversation transcripts:
      - **User Prompt**
      - **Agent Internal Reasoning / Thinking** (enclosed in collapsible `<details><summary>Thinking Process</summary>...</details>` blocks or dedicated sections)
      - **Tool Invocations & Outputs**
-     - **Final Response & Deliverables**
+     - **Final Response & Deliverables**: Include the final response (`### AI Response`) verbatim exactly as delivered in the chat (never use placeholders like `*(Refer to output in main chat)*` or truncated summaries).
